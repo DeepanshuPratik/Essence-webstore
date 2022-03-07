@@ -14,14 +14,38 @@
   margin: 0 20px;
   margin-top: 18px;
 }
-.header__option {
-  background-color: aliceblue;
+.header__options {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: bold;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 .header__search {
   display: flex;
   flex: 1;
   align-items: center;
   border-radius: 24px;
+}
+.header__optionBasket{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.header__basketCount{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .header__searchInput {
   height: 12px;
